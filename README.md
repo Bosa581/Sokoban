@@ -51,8 +51,6 @@ The level data is stored as a 2D `std::vector<std::vector<char>>` matrix, where 
 No `<algorithm>` functions or lambda expressions were required for Part A.
 
 ### Issues
-
-- I Still have issues passing one test case** — 1.9 (Missing Symbol) and 4.5 (swapoff logic) from part B
 - Initially had issues where sprites were not showing up — this was because textures were not loaded before assigning them to sprites.
 - The `draw()` method initially failed until debug output was added for unknown tile types.
 - The move counter was implemented, but the font failed to load until `/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf` was added and pathing was fixed.
@@ -70,3 +68,9 @@ No `<algorithm>` functions or lambda expressions were required for Part A.
 
 - Kenney Sokoban Pack
 - SFML Library
+
+
+## STEPS TO RUN
+install SFML on your cpp based IDE,
+Download all images and levels for maximum enjoyment
+copy and paste the Sokoban.hpp and Sokoban.cpp files, compile and run
