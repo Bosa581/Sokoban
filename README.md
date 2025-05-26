@@ -58,7 +58,7 @@ No `<algorithm>` functions or lambda expressions were required for Part A.
 - The move counter was implemented, but the font failed to load until `/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf` was added and pathing was fixed.
 - Integrating the gameplay timer required using `mutable` to allow updating time from `const` methods.
 
-### Extra Credit
+### Additional Features
 
 - Implemented a move counter that tracks the number of valid player moves and renders it live on screen
 - Implemented a real-time gameplay timer using `sf::Clock` to show how long the player has been playing,
